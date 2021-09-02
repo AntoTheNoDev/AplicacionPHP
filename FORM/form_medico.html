@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Pacientes</title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+    <style>
+        body {
+          background-color: #6E6E6E;
+        }
+        form{
+            background-color:#eee;
+            margin: auto;
+            width: 600px;
+            padding: 30px;
+            border-radius: 20px
+        }
+        #caja{
+            margin-top: 30px;
+        }
+        input{
+            margin-top: 5px;
+        }
+        input[type=submit]{
+            background-color: #008000;
+        }
+        .myButton3{
+            background-color: #008000;
+        }
+        .myButton2{
+            font-size: 17px;
+        }
+        </style>
+    <!-- hecho por Antonio -->
+    <div id="caja">
+    <form action="../PHP/alta_medico.php" method="POST">
+        <table  style="width:100%">
+        <input type="reset" value="NUEVO MEDICO" class="myButton3"><br>
+        <tr class="tabla">
+            <th>DNI</th>
+            <th><input type="text" name="dni"></th>
+        </tr>
+        <tr>
+            <th>NOMBRE</th>
+            <th><input type="text" name="nombre"> </th>
+        </tr>
+
+        <tr>
+            <th>PRIMER APELLIDO</th>
+            <th><input type="text" name="apellido_1"></th>
+        </tr>
+        <tr>
+            <th>SEGUNDO APELLIDO</th>
+            <th><input type="text" name="apellido_2"></th>
+        </tr>
+        <tr>
+            <th>LOCALIDAD</th>
+            <th><input type="text" name="localidad"></th>
+        </tr>
+        <tr>
+            <th>CODIGO POSTAL</th>
+            <th><input type="text" name="codPostal"></th>
+        </tr>
+        <tr>
+            <th>TELEFONO</th>
+            <th><input type="text" name="telefono"></th>
+        </tr>
+        <tr>
+            <th>ESPECIALIZADO</th>
+            <th><input type="text" name="especialidad"></th>
+        </tr>
+        </table>
+        <input type="submit" value="DAR DE ALTA" class="myButton2">
+    </form>
+</div>
+</body>
+</html>

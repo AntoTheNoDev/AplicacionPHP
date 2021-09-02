@@ -1,0 +1,233 @@
+body{
+    background-color: #6E6E6E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    background-color:#eee;
+    margin: auto;
+    width: 400px;
+    padding: 30px;
+    border-radius: 20px
+}
+#container{
+    margin-top: 230px;
+}
+#user_name{
+    margin: 30px auto;
+    width: 731px;
+}
+/* menu.html botones de entrada */
+.myButton {
+    margin-top: 150px;
+    margin-left: 700px;
+	background-color:green;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:13px 35px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:green;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.modiButton {
+	background-color:#fff200;
+	display:inline-block;
+	margin-left: 10px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:15px 31px;
+	text-decoration:none;
+}
+.modiButton:hover {
+	background-color:#fff200;
+}
+.modiButton:active {
+	position:relative;
+	top:1px;
+}
+.bajasButton {
+    margin-top: 150px;
+	background-color:red;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:13px 35px;
+	text-decoration:none;
+}
+.bajasButton:hover {
+	background-color:red;
+}
+.bajasButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* modificar Button */
+.modifiButton {
+	background-color:#fff200;
+    display:inline-block;
+	margin-top: 300px;
+	margin-left: 500px;
+	margin-right: 0px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.modifiButton:hover {
+	background-color:#fff200;
+}
+.modifiButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* bajas button */
+.bajas2Button {
+    margin-top: 300px;
+    margin-left: 500px;
+	background-color:red;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:13px 35px;
+	text-decoration:none;
+}
+.bajas2Button:hover {
+	background-color:red;
+}
+.bajas2Button:active {
+	position:relative;
+	top:1px;
+}
+
+/* altas button */
+.altasButton {
+    margin-top: 300px;
+    margin-left: 500px;
+	background-color:green;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:13px 35px;
+	text-decoration:none;
+}
+.altasButton:hover {
+	background-color:green;
+}
+.altasButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*boton volver */
+.myButton3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color:rgb(0, 225, 255);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:13px 35px;
+	text-decoration:none;
+}
+.myButton3:hover {
+	background-color:rgb(0, 225, 255);
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+
+input{
+    border: solid 0;
+    border-radius: 3px;
+}
+
+input[type=text], input[type=password]{
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    width: 370px;
+}
+input[type=submit]{
+    background-color: #1E69E3;
+    color: white;
+    padding: 8px;
+    border: none;
+    width: 200px;
+}
+.center{
+    text-align: center;
+}
+
+.opcion{
+    padding: 5px 0;
+}
+
+.barra{
+    background-color:rgb(152, 196, 236);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.seleccionado{
+    background-color: rgb(33, 90, 143);
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+}
+
+#menu{
+    margin: auto;
+    background-color: #eee;
+    width: 700px;
+    padding: 13px;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    color: #1E69E3;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    color: rgb(227, 109, 30);
+    text-decoration: none;
+}
+.cerrar-sesion{
+    float: right;
+}
